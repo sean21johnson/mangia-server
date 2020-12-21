@@ -1,0 +1,99 @@
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Folder with id sssffs not found","level":"error"}
+{"message":"Folder with id sssffs not found","level":"error"}
+{"message":"Meal with id 45 not found","level":"error"}
+{"message":"Meal with id 45 not found","level":"error"}
+{"message":"Meal with id 222 not found","level":"error"}
+{"message":"Meal with id 3 deleted from meal collection","level":"info"}
+{"message":"Meal with id f845bbec-b3bc-47d6-a840-16cae4156ac8 created","level":"info"}
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Unauthorized request to path: /meals","level":"error"}
+{"message":"Unauthorized request to path: /meals","level":"error"}
+{"message":"Unauthorized request to path: /meals","level":"error"}
+{"message":"Unauthorized request to path: /meals","level":"error"}
+{"message":"Unauthorized request to path: /meals","level":"error"}
+{"message":"Unauthorized request to path: /meals","level":"error"}
+{"message":"Unauthorized request to path: /meals","level":"error"}
+{"message":"Unauthorized request to path: /meals","level":"error"}
+{"message":"Unauthorized request to path: /meals","level":"error"}
+{"message":"Meal with id a72f0834-db36-49b5-9459-780b863c24be created","level":"info"}
+{"message":"meal_name is required","level":"error"}
+{"message":"meal_name is required","level":"error"}
+{"message":"meal_name is required","level":"error"}
+{"message":"meal_name is required","level":"error"}
+{"message":"meal_name is required","level":"error"}
+{"message":"meal_name is required","level":"error"}
+{"message":"meal_name is required","level":"error"}
+{"message":"meal_name is required","level":"error"}
+{"message":"meal_name is required","level":"error"}
+{"message":"meal_name is required","level":"error"}
+{"message":"meal_name is required","level":"error"}
+{"message":"meal_name is required","level":"error"}
+{"message":"Meal with id 16bd3802-c7fb-41c8-879d-ce04c3e07cdb created","level":"info"}
+{"message":"Meal with id 081ebd61-d7b6-41c9-908b-28a7a0de06a7 created","level":"info"}
+{"message":"Meal with id 915027f2-d53e-4a02-ac59-b9d6178966ad created","level":"info"}
+{"message":"Meal with id 40931209-fd56-4b10-8e6d-cd1023c0e2f9 created","level":"info"}
+{"message":"Meal with id ec2069de-2d6e-4a4a-8cf1-ce5a61082a4b created","level":"info"}
+{"message":"Meal with id a3a986b0-48b7-421e-9b62-9396b9d24552 created","level":"info"}
+{"message":"Meal with id 66d806d8-7171-4d66-a1d0-1aea254b0524 created","level":"info"}
+{"message":"Meal with id 4646364d-fb7d-4843-80fd-8bad6370692f created","level":"info"}
+{"message":"Meal with id 366d2ee2-0f6e-46d1-8e59-89065a12b45c created","level":"info"}
+{"message":"Meal with id 770f7535-a6b1-46bf-9823-2d80b8315aaf created","level":"info"}
+{"message":"Meal with id 514984cd-78b9-4f92-97e7-d3393d355c0e created","level":"info"}
+{"message":"Meal with id 64ef5ee2-2f78-4556-b4ec-d46d6af8f7e0 created","level":"info"}
+{"message":"Meal with id 5de7bb5d-cce0-4c0e-98ce-5625cea5f8d1 created","level":"info"}
+{"message":"Meal with id 577ced83-077d-4ca3-84ff-bf76f65c2c55 created","level":"info"}
+{"message":"Meal with id 144b2473-f5c3-4514-8e19-acfe7b6af824 created","level":"info"}
+{"message":"Meal with id b924b3f9-f421-4413-9075-79b2bfd27a8f created","level":"info"}
+{"message":"Meal with id 0ddee137-941f-4f81-8118-2836ddc29783 created","level":"info"}
+{"message":"Meal with id 67b99774-ea03-4011-8e7a-033dae625b5d created","level":"info"}
+{"message":"Meal with id 02c137d2-eb81-421d-a363-bc6ababcda5a created","level":"info"}
+{"message":"Meal with id 09c49e04-7994-4a87-b2c5-bfa1119853af created","level":"info"}
+{"message":"Meal with id 018daf4f-6209-48e1-93e2-defa4534897a created","level":"info"}
+{"message":"Meal with id 577ced83-077d-4ca3-84ff-bf76f65c2c55 deleted from meal collection","level":"info"}
+{"message":"Meal with id 64ef5ee2-2f78-4556-b4ec-d46d6af8f7e0 deleted from meal collection","level":"info"}
+{"message":"Meal with id 21 deleted from meal collection","level":"info"}
+{"message":"Meal with id 20 deleted from meal collection","level":"info"}
+{"message":"Meal with id 6c70409f-c3c2-4116-97b2-46985f1a7b6f created","level":"info"}
+{"message":"Meal with id f7874855-dcf3-4b21-bfc2-fb6d387d99b6 created","level":"info"}
+{"message":"Meal with id f7874855-dcf3-4b21-bfc2-fb6d387d99b6 deleted from meal collection","level":"info"}
+{"message":"Meal with id 9e5ff6f1-11f8-4606-b9b7-7befeb111b07 created","level":"info"}
+{"message":"Meal with id 9e5ff6f1-11f8-4606-b9b7-7befeb111b07 deleted from meal collection","level":"info"}
+{"message":"Meal with id 1 deleted from meal collection","level":"info"}
+{"message":"Meal with id 6c70409f-c3c2-4116-97b2-46985f1a7b6f deleted from meal collection","level":"info"}
+{"message":"Meal with id 19 deleted from meal collection","level":"info"}
+{"message":"Meal with id 18 deleted from meal collection","level":"info"}
+{"message":"Meal with id 17 deleted from meal collection","level":"info"}
+{"message":"Meal with id 16 deleted from meal collection","level":"info"}
+{"message":"Meal with id 15 deleted from meal collection","level":"info"}
+{"message":"Meal with id 14 deleted from meal collection","level":"info"}
+{"message":"Meal with id 13 deleted from meal collection","level":"info"}
+{"message":"Meal with id 12 deleted from meal collection","level":"info"}
+{"message":"Meal with id 11 deleted from meal collection","level":"info"}
+{"message":"Meal with id 10 deleted from meal collection","level":"info"}
+{"message":"Meal with id 9 deleted from meal collection","level":"info"}
+{"message":"Meal with id 8 deleted from meal collection","level":"info"}
+{"message":"Meal with id 7 deleted from meal collection","level":"info"}
+{"message":"Meal with id 6 deleted from meal collection","level":"info"}
+{"message":"Meal with id 5 deleted from meal collection","level":"info"}
+{"message":"Meal with id 4 deleted from meal collection","level":"info"}
+{"message":"Meal with id 3 deleted from meal collection","level":"info"}
+{"message":"Meal with id 19 deleted from meal collection","level":"info"}
+{"message":"Meal with id 20 deleted from meal collection","level":"info"}
+{"message":"Meal with id 21 deleted from meal collection","level":"info"}
+{"message":"Meal with id 18 deleted from meal collection","level":"info"}
+{"message":"Meal with id 17 deleted from meal collection","level":"info"}
+{"message":"Meal with id 16 deleted from meal collection","level":"info"}
+{"message":"Meal with id 15 deleted from meal collection","level":"info"}
+{"message":"Meal with id 14 deleted from meal collection","level":"info"}
+{"message":"Meal with id 13 deleted from meal collection","level":"info"}
+{"message":"Meal with id 12 deleted from meal collection","level":"info"}
+{"message":"Meal with id aaabaf19-c650-4cd7-8448-5a5c248ffa68 created","level":"info"}
+{"message":"Meal with id bf1123e9-d816-4746-a1ed-e9f594d3d502 created","level":"info"}
+{"message":"Meal with id 7 deleted from meal collection","level":"info"}
+{"message":"Meal with id 9 deleted from meal collection","level":"info"}
+{"message":"Meal with id 5 deleted from meal collection","level":"info"}
+{"message":"Meal with id 4 deleted from meal collection","level":"info"}
+{"message":"Meal with id 10 deleted from meal collection","level":"info"}
+{"message":"Meal with id be8ad6a5-d998-4f93-a725-e39db05b939c created","level":"info"}
+{"message":"Meal with id 11 deleted from meal collection","level":"info"}

@@ -5,6 +5,10 @@ const cors = require('cors')
 const helmet = require('helmet')
 const { NODE_ENV } = require('./config')
 
+const validateToken = require('./validate-token')
+const errorHandler = require('./error-handler')
+const mealsRouter = require('./meals/meals-router')
+
 const app = express()
 
 const morganOption = (NODE_ENV === 'production')
@@ -14,20 +18,14 @@ const morganOption = (NODE_ENV === 'production')
 app.use(morgan(morganOption))
 app.use(cors())
 app.use(helmet())
+// app.use(validateToken)
+
+app.use(mealsRouter)
 
 app.get('/', (req, res) => {
     res.send('Hello, world!')
 })
 
-  app.use(function errorHandler(error, req, res, next) {
-      let response
-      if (NODE_ENV === 'production') {
-        response = { error: { message: 'server error' } }
-      } else {
-        console.error(error)
-        response = { message: error.message, error }
-      }
-      res.status(500).json(response)
-    })
+app.use(errorHandler)
 
 module.exports = app
