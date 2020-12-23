@@ -7,14 +7,34 @@ const mealsRouter = express.Router()
 const bodyParser = express.json()
 
 mealsRouter
-    .route('/meals')
-    .get((req, res, next) => {
+
+.route('/meals')
+.get((req, res, next) => {
+    const { filter, search='' } = req.query
+    if ((filter === '' || !filter) && (search === '' || !search)) {
         MealsService.getAllMeals(req.app.get('db'))
+            .then(meals => {
+                res.json(meals)
+            })
+            .catch(next)
+    }
+    else if (!filter && typeof(search === 'string')) {
+        console.log('at the right part')
+        MealsService.getSearchResults(req.app.get('db'), search)
+            .then(meals => {
+                res.json(meals)
+            })
+            .catch(next)
+    }
+    else if (!search && typeof(filter === 'string')) {
+        MealsService.getSpecificCategory(req.app.get('db'), filter)
         .then(meals => {
             res.json(meals)
         })
         .catch(next)
-    })
+    }
+})
+
 
     .post(bodyParser, (req, res, next) => {
         for (let field of ['meal_image', 'meal_name', 'meal_category', 'meal_description']) {
@@ -88,7 +108,7 @@ mealsRouter
         
     .patch(bodyParser, (req, res, next) => {
         const { meal_id, meal_image, meal_name, meal_category, meal_description } = req.body
-        const mealToUpdate = { meal_id, meal_image, meal_name, meal_category, meal_description, meal_time: new Date() }
+        const mealToUpdate = { meal_id, meal_image, meal_name, meal_category, meal_description }
         const numberOfValues = Object.values(mealToUpdate).filter(Boolean).length
         
         if (numberOfValues === 0) {
@@ -109,7 +129,7 @@ mealsRouter
                     .end()
             })
             .catch(next)
-    })
+        })
 
 
 module.exports = mealsRouter

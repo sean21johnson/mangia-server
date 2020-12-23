@@ -97,3 +97,12 @@
 {"message":"Meal with id 10 deleted from meal collection","level":"info"}
 {"message":"Meal with id be8ad6a5-d998-4f93-a725-e39db05b939c created","level":"info"}
 {"message":"Meal with id 11 deleted from meal collection","level":"info"}
+{"message":"Meal with id category not found","level":"error"}
+{"message":"Meal with id breakfast not found","level":"error"}
+{"message":"Meal with id Breakfast not found","level":"error"}
+{"message":"Meal with id dinner not found","level":"error"}
+{"message":"Meal with id filter&Lunch not found","level":"error"}
+{"message":"Meal with id filter&Lunch not found","level":"error"}
+{"message":"Meal with id filter=Lunch not found","level":"error"}
+{"message":"Meal with id 1677 deleted from meal collection","level":"info"}
+{"message":"Meal with id 63343 deleted from meal collection","level":"info"}

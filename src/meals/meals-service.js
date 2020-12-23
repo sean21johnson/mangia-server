@@ -12,6 +12,18 @@ const MealsService = {
             .where('meal_id', 'ILIKE', `%${meal_id}`)
             .first()
     },
+    getSpecificCategory(knex, category) {
+        return knex
+            .select('*')
+            .from('meals')
+            .where('meal_category', 'ILIKE', `%${category}%`)
+    },
+    getSearchResults(knex, search) {
+        return knex
+            .select('*')
+            .from('meals')
+            .where('meal_name', 'ILIKE', `%${search}%`)
+    },
     deleteSpecificMeal(knex, meal_id) {
         return knex
             .from('meals')
