@@ -9,10 +9,7 @@ const jsonBodyParser = express.json()
 
 usersRouter
     .post('/', jsonBodyParser, (req, res, next) => {
-
         const { password, username, first_name, last_name, email } = req.body
-
-        console.log(first_name)
 
         for (const field of ['first_name', 'last_name', 'username', 'email', 'password'])
             if (!req.body[field])
@@ -39,11 +36,10 @@ usersRouter
                         first_name,
                         last_name,
                         email,
-                        username,
+                        username: username.toLowerCase(),
                         pass_word: hashedPassword,
                         date_created: new Date()
                     }
-
             return UsersService.insertUser(
                 req.app.get('db'),
                 newUser

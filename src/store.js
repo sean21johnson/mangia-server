@@ -41,11 +41,11 @@ const meals = [
         meal_image: 'https://imgur.com/u3ahaL7.jpg',
         meal_name: 'Chips & Guac',
         meal_category: 'Snack',
-        meal_description: 'Deliciuos chips & guac we got at a local Mexican restaurant',
+        meal_description: 'Delicious chips & guac we got at a local Mexican restaurant',
     },
     {
         meal_id: uuid.v4(),
-        meal_image: 'https://imgur.com/pe7OE4K.jpg',
+        meal_image: 'https://imgur.com/DUajUHP.jpg',
         meal_name: 'Chocolate Cake',
         meal_category: 'Dessert',
         meal_description: 'Fantastic chocolate cake from our favorite local bakery',
@@ -87,7 +87,7 @@ const meals = [
     },
     {
         meal_id: uuid.v4(),
-        meal_image: 'https://imgur.com/BmE38Bx.jpg',
+        meal_image: 'https://imgur.com/ntwQe6p.jpg',
         meal_name: 'Grilled Cheese',
         meal_category: 'Lunch',
         meal_description: 'Delicious grilled cheese with tomato for lunch',
@@ -150,19 +150,18 @@ const meals = [
     },
     {
         meal_id: uuid.v4(),
-        meal_image: 'https://imgur.com/56MPSdZ.jpg',
-        meal_name: 'French Toast',
-        meal_category: 'Breakfast',
-        meal_description: 'Outstanding french toast that we made last weekend',
-    },
-    {
-        meal_id: uuid.v4(),
         meal_image: 'https://imgur.com/xcUbC0N.jpg',
         meal_name: 'Buffalo Wings',
         meal_category: 'Snack',
         meal_description: 'Delicious Buffalo wings',
     },
-    
+    {
+        meal_id: uuid.v4(),
+        meal_image: 'https://imgur.com/56MPSdZ.jpg',
+        meal_name: 'French Toast',
+        meal_category: 'Breakfast',
+        meal_description: 'Outstanding french toast that we made last weekend',
+    },
 ]
 
 

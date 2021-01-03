@@ -106,3 +106,27 @@
 {"message":"Meal with id filter=Lunch not found","level":"error"}
 {"message":"Meal with id 1677 deleted from meal collection","level":"info"}
 {"message":"Meal with id 63343 deleted from meal collection","level":"info"}
+{"message":"users_id is required","level":"error"}
+{"message":"Meal with id 43939 deleted from meal collection","level":"info"}
+{"message":"users_id is required","level":"error"}
+{"message":"meal_image is required","level":"error"}
+{"message":"users_id is required","level":"error"}
+{"message":"Meal with id 6d9d4b21-b7d7-493f-95b6-e281fedea499 created","level":"info"}
+{"message":"Meal with id 8b2cc342-6d99-4e65-ab78-7a129d724732 created","level":"info"}
+{"message":"Meal with id c3cbd5f1-3e51-4cc2-85dc-4c99a0b6db13 created","level":"info"}
+{"message":"Meal with id 643476c2-ecc4-4ccc-8f73-51e84838bd1d created","level":"info"}
+{"message":"Meal with id 6543ebc5-41aa-43e9-84c6-4c9d5e9196e7 created","level":"info"}
+{"message":"Meal with id 338b2730-a147-448c-83e3-e846b1b30c20 created","level":"info"}
+{"message":"Meal with id 8f2e1ce5-3059-4ecf-af51-f9141aacbaaf created","level":"info"}
+{"message":"Meal with id e941c7ab-b983-46ec-b336-40bee18922ce created","level":"info"}
+{"message":"Meal with id 9737a392-b938-4de9-86ff-02f7b02ec3d5 created","level":"info"}
+{"message":"Meal with id 2235 deleted from meal collection","level":"info"}
+{"message":"Meal with id 88443 deleted from meal collection","level":"info"}
+{"message":"Meal with id 30303 deleted from meal collection","level":"info"}
+{"message":"Meal with id 96b13498-5cff-43d6-81ae-324d8e99cfb3 created","level":"info"}
+{"message":"Meal with id 74c07d26-7f36-44fc-bed9-352c94f0fa89 created","level":"info"}
+{"message":"Meal with id 1232 deleted from meal collection","level":"info"}
+{"message":"Meal with id 7744 deleted from meal collection","level":"info"}
+{"message":"Meal with id 400 deleted from meal collection","level":"info"}
+{"message":"Meal with id 68b5d272-1ca1-473f-a254-ce4462539afb created","level":"info"}
+{"message":"Meal with id 68b5d272-1ca1-473f-a254-ce4462539afb deleted from meal collection","level":"info"}

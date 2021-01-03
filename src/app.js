@@ -5,6 +5,7 @@ const cors = require('cors')
 const helmet = require('helmet')
 const { NODE_ENV } = require('./config')
 const usersRouter = require('./users/users-router')
+const authRouter = require('./auth/auth-router')
 
 const validateToken = require('./validate-token')
 const errorHandler = require('./error-handler')
@@ -23,6 +24,7 @@ app.use(helmet())
 
 app.use(mealsRouter)
 app.use('/users', usersRouter)
+app.use('/login', authRouter)
 
 app.get('/', (req, res) => {
     res.send('Hello, world!')

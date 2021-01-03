@@ -2,6 +2,7 @@ const express = require('express')
 const uuid = require('uuid')
 const logger = require('../logger')
 const MealsService = require('./meals-service')
+const { requireAuth } = require('../middleware/jwt-auth')
 
 const mealsRouter = express.Router()
 const bodyParser = express.json()
@@ -9,25 +10,24 @@ const bodyParser = express.json()
 mealsRouter
 
 .route('/meals')
-.get((req, res, next) => {
+.get(requireAuth, (req, res, next) => {
     const { filter, search='' } = req.query
     if ((filter === '' || !filter) && (search === '' || !search)) {
-        MealsService.getAllMeals(req.app.get('db'))
+        MealsService.getAllMeals(req.app.get('db'), req.user.users_id)
             .then(meals => {
                 res.json(meals)
             })
             .catch(next)
     }
     else if (!filter && typeof(search === 'string')) {
-        console.log('at the right part')
-        MealsService.getSearchResults(req.app.get('db'), search)
+        MealsService.getSearchResults(req.app.get('db'), search, req.user.users_id)
             .then(meals => {
                 res.json(meals)
             })
             .catch(next)
     }
     else if (!search && typeof(filter === 'string')) {
-        MealsService.getSpecificCategory(req.app.get('db'), filter)
+        MealsService.getSpecificCategory(req.app.get('db'), filter, req.user.users_id)
         .then(meals => {
             res.json(meals)
         })
@@ -36,7 +36,7 @@ mealsRouter
 })
 
 
-    .post(bodyParser, (req, res, next) => {
+    .post(requireAuth, bodyParser, (req, res, next) => {
         for (let field of ['meal_image', 'meal_name', 'meal_category', 'meal_description']) {
             if (!req.body[field]) {
                 logger.error(`${field} is required`)
@@ -52,8 +52,11 @@ mealsRouter
             meal_name,
             meal_category,
             meal_description,
-            meal_time: new Date()
+            meal_time: new Date(),
         }
+
+        newMeal.users_id = req.user.users_id
+
         MealsService.insertNewMeal(req.app.get('db'), newMeal)
         .then(meal => {
             logger.info(`Meal with id ${newMeal.meal_id} created`)
