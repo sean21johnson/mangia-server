@@ -3,7 +3,7 @@ BEGIN;
 INSERT INTO meals
     (meal_id, meal_image, meal_name, meal_category, meal_description, meal_time, users_id)
     VALUES 
-    ('800', 'https://imgur.com/5H9JNVN.jpg', 'Breakfast Sandwich', 'Breakfast', 'Amazing bacon, egg and cheese with a hash brown on a roll', '2020-11-01T08:08:17.205-05:00', '1'),
+    ('800', 'https://imgur.com/BvjuU76.jpg', 'Breakfast Sandwich', 'Breakfast', 'Amazing bacon, egg and cheese on an english muffin', '2020-11-01T08:08:17.205-05:00', '1'),
     ('200', 'https://imgur.com/IywOABd.jpg', 'Buffalo Chicken Dip', 'Snack', 'Fantastic buffalo chicken dip appetizer', '2020-11-02T08:08:17.205-05:00', '1'),
     ('400', 'https://imgur.com/lrOVwgK.jpg', 'Caesar Salad', 'Lunch', 'Delicious homemade caesar salad', '2020-11-03T08:08:17.205-05:00', '1'),
     ('1232', 'https://imgur.com/RheXwZO.jpg', 'Charcuterie Board', 'Snack', 'Wonderful board of meets & cheeses', '2020-11-04T08:08:17.205-05:00', '1'),

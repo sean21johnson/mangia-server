@@ -15,21 +15,21 @@ mealsRouter
     if ((filter === '' || !filter) && (search === '' || !search)) {
         MealsService.getAllMeals(req.app.get('db'), req.user.users_id)
             .then(meals => {
-                res.json(meals)
+                res.status(200).json(meals)
             })
             .catch(next)
     }
     else if (!filter && typeof(search === 'string')) {
         MealsService.getSearchResults(req.app.get('db'), search, req.user.users_id)
             .then(meals => {
-                res.json(meals)
+                res.status(200).json(meals)
             })
             .catch(next)
     }
     else if (!search && typeof(filter === 'string')) {
         MealsService.getSpecificCategory(req.app.get('db'), filter, req.user.users_id)
         .then(meals => {
-            res.json(meals)
+            res.status(200).json(meals)
         })
         .catch(next)
     }

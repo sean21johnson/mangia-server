@@ -130,3 +130,7 @@
 {"message":"Meal with id 400 deleted from meal collection","level":"info"}
 {"message":"Meal with id 68b5d272-1ca1-473f-a254-ce4462539afb created","level":"info"}
 {"message":"Meal with id 68b5d272-1ca1-473f-a254-ce4462539afb deleted from meal collection","level":"info"}
+{"message":"Meal with id 400 deleted from meal collection","level":"info"}
+{"message":"Meal with id 800 deleted from meal collection","level":"info"}
+{"message":"Meal with id 200 deleted from meal collection","level":"info"}
+{"message":"Meal with id 200bdb6c-7c19-48e5-85bb-1e128ca51cb3 created","level":"info"}
