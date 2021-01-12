@@ -28,7 +28,7 @@ This server-side application was created with:
 
 ---
 
-### Endpoints Tree
+### API Documentation
 
 **App🔻**  
 
@@ -50,8 +50,7 @@ This server-side application was created with:
 ➖➖*/add-meal*  
 (POST)  
 
-➖➖*/meals*    
-➖➖*/meals:id*    
+➖➖*/meals*     
 (GET, DELETE, PATCH)  
 
 ---
