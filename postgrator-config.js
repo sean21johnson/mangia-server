@@ -1,8 +1,8 @@
-require('dotenv').config();
+require("dotenv").config();
 
 module.exports = {
-  "migrationsDirectory": "migrations",
-  "driver": "pg",
-  "connectionString": process.env.DATABASE_URL,
-  "ssl": true
-}
+	migrationsDirectory: "migrations",
+	driver: "pg",
+	connectionString: process.env.DATABASE_URL,
+	ssl: true,
+};
