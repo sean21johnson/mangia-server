@@ -28,6 +28,34 @@ This server-side application was created with:
 
 ---
 
+### Endpoints Tree
+
+**App🔻**  
+
+➖**Middleware Used🔻**  
+➖➖*JWT Auth Router*   
+
+➖**Routes🔻**  
+➖➖*BASE URL: /api*  
+
+➖➖*/signup*  
+(POST)   
+
+➖➖*/signup*  
+(POST)    
+
+➖➖*/login*  
+(GET)  
+
+➖➖*/add-meal*  
+(POST)  
+
+➖➖*/meals*    
+➖➖*/meals:id*    
+(GET, DELETE, PATCH)  
+
+---
+
 ### Available Scripts
 
 In the project directory, you can run:
