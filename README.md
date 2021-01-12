@@ -38,20 +38,17 @@ This server-side application was created with:
 ➖**Routes🔻**  
 ➖➖*BASE URL: /api*  
 
-➖➖*/signup*  
-(POST)   
-
-➖➖*/signup*  
+➖➖/signup   
 (POST)    
 
 ➖➖*/login*  
-(GET)  
+(GET)   
 
 ➖➖*/add-meal*  
 (POST)  
 
-➖➖*/meals*     
-(GET, DELETE, PATCH)  
+➖➖*/meals*    
+(GET, DELETE, PATCH)   
 
 ---
 
