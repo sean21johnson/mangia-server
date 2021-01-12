@@ -41,14 +41,14 @@ This server-side application was created with:
 ➖➖/signup   
 (POST)    
 
-➖➖*/login*  
+➖➖/login    
 (GET)   
 
-➖➖*/add-meal*  
+➖➖/add-meal    
 (POST)  
 
-➖➖*/meals*    
-(GET, DELETE, PATCH)   
+➖➖/meals      
+(GET, DELETE, PATCH)     
 
 ---
 
